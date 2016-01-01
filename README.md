@@ -18,7 +18,7 @@ All you need to do is download it [here](https://github.com/thegreyside/thegreys
 
 You need to edit 4 files to fit your needs, they are `index.html`, `resume/index.html` `css/landpage` and `css/resume.css`. 
 
-***There is also the Jekyll/SASS version of this theme if you prefer that one, grab it [here](https://github.com/thegreyside/materializecss_online_resume_jekyll)*** With that in hand, you only need to edit the `resume.yml` and `settings.yml` to change the content. It's pretty straight forward.
+**There is also the Jekyll/SASS version of this theme if you prefer that one, grab it [here](https://github.com/thegreyside/materializecss_online_resume_jekyll)**. With that you only need to edit the `resume.yml` and `settings.yml` to change the content. It's pretty straight forward.
 
 Learn how to use [Jekyll on windows](http://jekyll-windows.juthilo.com/) and [SASS](http://sass-lang.com/guide).
 
