@@ -3,7 +3,6 @@
   width: 100%
   background-color: #000
   color: #fff
-  font-family: Arial, sans-serif
   letter-spacing: 5px
   font-size: 0.9em
   opacity: 0.9
@@ -16,20 +15,23 @@
   p 
     padding-right: 10px
     
-  span 
-    padding-right: 10px
-    color: rgba(254,254,254,.5)
+  .sub-1
+    color: rgba(255,138,101,.9)
+      
+  .sub-2 
+    padding-right: 100px
+    color: rgba(254,254,254,.9)
 
 .wrapper 
+  margin: auto
   position: fixed
-  margin: 200px 0
+  top: 300px
+  left: 100px
   width: 100%
   display: block
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6)
   text-align: left
   
-  .greeting
-    padding-left: 20px
   #avatar 
     background: url(../img/avatar.jpg)
       size: cover
@@ -41,15 +43,15 @@
     float: left
 
   h1 
-    font-family: Arial, sans-serif
+    margin: auto
     font-size: 2.4em
     position: relative
     font-weight: 400
     color: #fff
 
   h2 
-    font-family: Arial, sans-serif
     font-size: 1.3em
+    font-weight: 100
     color: #f8f8f8
 
   p.link 
@@ -63,22 +65,22 @@
       color: #fff
       text-decoration: none
       display: inline-block
-      border: 1px solid #6d0019
+      border: 1px solid #ff8a65
       border-radius: 5px
       font-size: 0.8em
       line-height: 18px
-      font-weight: 800
+      font-weight: 400
       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1)
-      background: #a90329
-      background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%)
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a90329), color-stop(44%, #8f0222), color-stop(100%, #6d0019))
-      background: -webkit-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%)
-      background: -o-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%)
-      background: -ms-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%)
-      background: linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%)
+      background: #ff8a65
+      background: -moz-linear-gradient(top, #ff8a65 0%, #dd4f43 44%, #b73128 100%)
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff8a65), color-stop(44%, #dd4f43), color-stop(100%, #b73128))
+      background: -webkit-linear-gradient(top, #ff8a65 0%, #dd4f43 44%, #b73128 100%)
+      background: -o-linear-gradient(top, #ff8a65 0%, #dd4f43 44%, #b73128 100%)
+      background: -ms-linear-gradient(top, #ff8a65 0%, #dd4f43 44%, #b73128 100%)
+      background: linear-gradient(top, #a90329 0%, #dd4f43 44%, #b73128 100%)
 
       &:hover 
-        background: #6d0019
+        background: #ff8a65
         
 .bottom-ribbon
   width: 100%
@@ -93,20 +95,22 @@
   display: block
   text-align: right
   
-  p 
-    font-family: Arial, sans-serif
+  a 
     line-height: 24px
-    font-size: 0.9em
-    padding-right: 10px
+    text-decoration: none
+    font-size: 0.7em
+    color: rgba(254,254,254,.5)
+    padding-right: 100px
     
-@media screen and (max-width: 767px)
+@media screen and (max-width: 800px)
   .brand-logo
     font-size: .9em
   .wrapper
     font-size: 0.8em
-    margin: 20px 0 0 0
     display: block
     text-align: center
+    left: auto
+    top: 35%
     .greeting
       margin-top: 10px
       padding: 0
@@ -124,6 +128,11 @@
     text-align: center
     padding: 0
     
+  p.copyright a
+    font-size: 8px
+    text-align: center
+    padding: 0
+    
   .top-ribbon
-    span
+    .sub-2
       padding: 0
