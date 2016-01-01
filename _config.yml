@@ -1,0 +1,5 @@
+# Build settings
+markdown: kramdown
+permalink: pretty
+higlighter: rouge
+port: 8888

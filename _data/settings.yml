@@ -1,0 +1,37 @@
+# Site settings
+# ----------------------------
+
+title: Rustam
+subtitle-1: Orange
+subtitle-2: Grey
+description: Human Resources
+keys: <i class="fa fa-check-square"></i> HRIS&nbsp;&nbsp;<i class="fa fa-check-square"></i> Payroll&nbsp;&nbsp;<i class="fa fa-check-square"></i> Generalist
+email: rustam.ismail@gmail.com
+linkedin: https://id.linkedin.com/in/rustamismail
+twitter: https://twitter.com/rooostam
+github: https://github.com/thegreyside
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Portfolio for Human Resources in Mining and Oil & Gas Jobs'
+  rel-author: 'https://plus.google.com/u/0/+RustamIsmail/'
+  rel-publisher: 'https://plus.google.com/u/0/+RustamIsmail/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.

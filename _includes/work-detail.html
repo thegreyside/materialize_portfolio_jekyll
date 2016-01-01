@@ -1,0 +1,13 @@
+{% for work in site.data.portfolio.works %}
+<section id="detail-{{ forloop.index }}" class="modal modal-fixed-footer">
+	<div class="modal-content">
+		<h5><b>{{ work.title }}</b></h5>
+		<p><b>{{ work.company }}</b>, {{ work.year }}</p>
+		<hr>
+		{{ work.detail }}
+	</div>
+	<div class="modal-footer">
+		<a href="#!" class="modal-action modal-close waves-effect waves-light btn deep-orange lighten-2">Close</a>
+	</div>
+</section>
+{% endfor %}

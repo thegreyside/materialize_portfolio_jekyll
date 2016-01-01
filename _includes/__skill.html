@@ -1,0 +1,24 @@
+<section id="skill">
+	<div class="container">
+		<h4 class="accent-color center-align">Skills</h4>
+		<div class="skill">
+			{% for skill in site.data.portfolio.skills %}
+
+			<div class="skill-type">
+				<div class="skill-label">{{ skill.name }}</div>
+				<div class="skill-bar skill-{{ skill.value }}">
+					{% for i in (1..10) %}
+					<span></span> {% endfor %}
+				</div>
+			</div>
+
+			{% endfor %}
+		</div>
+		<footer><span class="grey-text lighten-1">They are solely for comparison only, there's always room for improvement.</span>
+		</footer>
+	</div>
+</section>
+<!--
+<div class="progress">
+      <div class="determinate" style="width: 70%"></div>
+  </div>-->

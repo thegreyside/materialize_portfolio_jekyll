@@ -1,0 +1,25 @@
+<section id="work" class="alt-color">
+	<div class="container">
+		<h6 class="accent-color center-align">Works</h6>
+		<div class="row">
+			{% for work in site.data.portfolio.works %}
+			<div class="col s12 m6 l4">
+				<div class="card small lighten-2 white-text alt-color-{{ forloop.index }} modal-trigger" data-target="detail-{{ forloop.index }}">
+					<div class="card-image work-{{ forloop.index }}">
+						<!--I'd like to define images in the css, rather than using <img>
+						<img src="/img/IMG-20150608-WA0004.jpg" alt="">-->
+					</div>
+					<div class="card-content deep-orange lighten-2 valign-wrapper">
+						<p class="small-text valign">{{ work.project }}</p><i class="mdi-navigation-more-vert small right"></i>
+					</div>
+					<div class="title-overlay center-align">
+						<strong class="title-text">{{ work.title }}</strong>
+						<i class="icon mdi-action-search small valign"></i>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+
+		</div>
+	</div>
+</section>

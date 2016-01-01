@@ -1,0 +1,34 @@
+<section id="contact" class="white">
+	<div class="container container-small">
+		<h6 class="accent-color center-align">Contact</h6>
+		<div class="row">
+			<!-- using Formspree.io (http://formspree.io) for the email service -->
+			<!-- give this form an id=emailform for JS purposes -->
+			<form class="col s12" id="emailform" action="//formspree.io/{{ site.data.settings.email }}" method="post">
+				<div class="row">
+					<div class="input-field col s12 m6 l6">
+						<i class="mdi-action-account-box prefix accent-color"></i>
+						<input id="name" type="text" class="validate" name="name" required>
+						<label for="name">Your Name</label>
+					</div>
+					<div class="input-field col s12 m6 l6">
+						<i class="mdi-communication-email prefix accent-color"></i>
+						<input id="email" type="email" class="validate" name="_replyto" required>
+						<label for="email">Your Email</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<i class="mdi-editor-insert-comment prefix accent-color"></i>
+						<textarea id="message" class="materialize-textarea" name="message"></textarea>
+						<label for="message">What can I do for you?</label>
+						<button class="btn waves-effect waves-light deep-orange lighten-2" type="submit" name="action" value="Send">Submit
+							<i class="mdi-content-send right"></i>
+						</button>
+					</div>
+				</div>
+
+			</form>
+		</div>
+	</div>
+</section>

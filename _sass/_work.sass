@@ -1,0 +1,60 @@
+/* ------------- 
+ * Works section
+ * ------------- */
+
+
+div.card.small
+	height: 227px
+
+	@for $i from 1 through 5
+		.work-#{$i}
+			background: 
+				image: url(../img/work-#{$i}.jpg)
+				size: cover
+				repeat: no-repeat
+				position: center center
+		
+	span.card-title.project
+		font-size: 18px
+
+.card
+	overflow: hidden
+	cursor: pointer
+
+	.card-content
+		height: 77px !important
+		padding: 10px 20px 10px 20px !important
+	
+	p
+		padding-left: 10px
+	
+	i
+		margin-left: 0 !important
+	
+
+	.title-overlay
+		font-size: 16px
+		padding: 45px 20px 20px 20px
+		line-height: 1.2
+		position: absolute
+		top: 100%
+		right: 0px
+		bottom: 0px
+		left: 0px
+		height: 150px
+		background: fade-out($accent-color, 0.5)
+
+		.title-text
+			display: block
+			text-transform: uppercase
+			font-size: 1em
+	
+		.icon
+			display: block
+			//padding-top: 10px
+	
+	&:hover .title-overlay
+		top: 0%
+		right: 0px
+		bottom: 0px
+		left: 0px
