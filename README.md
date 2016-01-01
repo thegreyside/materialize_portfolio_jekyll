@@ -4,7 +4,7 @@ This portfolio is built to replace my old wordpress site. It is my first attempt
 
 Why orange & grey? actually there are 3 colors here instead of 3 (orange, dark blue and grey). Well, I'm coming from construction & mining industry, they are the color of uniforms we used to wear in our daily activities.
 
-Click here to [see a live demo in action](https://thegreyside.guthub.io). I set it as my homepage on Github.
+Click here to [see the live demo in action](https://thegreyside.github.io). I set it as my homepage on Github.
 
 ## Features
 
