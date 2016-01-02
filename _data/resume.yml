@@ -31,7 +31,7 @@ skills:
 - {name: Supervisory, value: 7}
 - {name: Creativity & Problem Solving, value: 7}
 - {name: Employee Assistance & Communication, value: 7}
-- {name: Data Analysis, value: 7}
+- {name: OHSE, value: 5}
 # communication
 # attention to detail
 
@@ -41,18 +41,11 @@ skills:
 works:
 - title: Human Resources Information System Supervisor
   company: PT. Asmin Koalindo Tuhup, Indonesia
-  project: Coking Coal Project, Site Muara Tuhup, Central Borneo, Indonesia
+  project: PT. Asmin Koalindo Tuhup, Indonesia, Coking Coal Project, Site Muara Tuhup, Central Borneo, Indonesia
   year: September 2010 - September 2014
   img: 
   detail: <ul><li>Lead the HRIS section, finalized and validated the HR database system for up to 3500 employees, generated thousands of employees’ paperwork into digital data, and developed the new roster application (<a href="https://drive.google.com/open?id=0B2oQfd0BeZkjMzFlWks5cEZJU1k">File 7 MB</a>).</li><li>Supervised and guided the payroll process during closing book, resolved any problem in payroll process and efficiently optimized the execution time from 14 days to 8-10 days (<a href="https://drive.google.com/open?id=0B2oQfd0BeZkjaXB5NTZJZGctdFE">File 140 kB</a>).</li><li>Analyzed database and extracted information for decision making purposes regarding disciplinary, promotion/change of status, payroll, turnover, training and development issues.</li><li>Supervised and managed exclusively the change of status process for non-staffs and junior staffs.</li><li>Trained payroll staffs and clerks how to interact with HRIS system and payroll modules.</li><li>Trained HR subordinates about personnel administration business processes, basic database administration and using third party applications to finish the jobs properly.</li><li>Collaborated with other HR staffs dealing with C&B, recruitment, IR and OD.</li><li>Participated in Mining Production System development, it was intended to integrate the HR, HSE and Production system.</li></ul>
 
-#- title: Human Resources Information System Officer
-#  company: PT. Asmin Koalindo Tuhup, Indonesia
-#  project: Coking Coal Project, Site Muara Tuhup, Central Borneo, Indonesia
-#  year: September 2010 - July 2011
-#  jobrole: Database administration and general HR activities.
-#  img:
-#  detail: <ul><li>Administer the HRIS database, monitor employees’ contract, payroll attendance sheet, field break roster, recruitment & termination data</li><li>Repair HR database and payroll module whenever error encountered.</li><li>Created report of system analysis of HR and payroll database application.</li><li>Assisted and helped payroll staffs by monitoring and fixing errors found when running the payroll process at the end of each month.</li><li>Took responsibility on personnel admin jobs including any kind of employees administration process i.e employee’s roster, induction permit, visitor permit, medical permit, leave permit, weekly and monthly report.</li><li>Assisted and helped other HR staffs in recruitment and termination process.</li></ul>
 - title: Cashier & Travel Assistant
   company: PT. Thiess Contractors Indonesia
   project: PT. Kaltim Supacoal Coal Upgrade Project, Tabang Site, East Borneo, Indonesia

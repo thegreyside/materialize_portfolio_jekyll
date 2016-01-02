@@ -3,8 +3,8 @@
  * ------------- */
 
 
-div.card.small
-	height: 227px
+div.card.medium
+	height: 350px
 
 	@for $i from 1 through 5
 		.work-#{$i}
@@ -22,26 +22,20 @@ div.card.small
 	cursor: pointer
 
 	.card-content
-		height: 77px !important
-		padding: 10px 20px 10px 20px !important
+		height: 100px !important
+		padding: 20px !important
+		text-align: justify
 	
-	p
-		padding-left: 10px
-	
-	i
-		margin-left: 0 !important
-	
-
 	.title-overlay
 		font-size: 16px
-		padding: 45px 20px 20px 20px
+		padding: 100px 20px 20px 20px
 		line-height: 1.2
 		position: absolute
 		top: 100%
 		right: 0px
 		bottom: 0px
 		left: 0px
-		height: 150px
+		height: 250px
 		background: fade-out($accent-color, 0.5)
 
 		.title-text
