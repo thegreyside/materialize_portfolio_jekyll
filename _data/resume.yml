@@ -2,17 +2,21 @@
 # Menu
 
 menus:
-- {name: About, url: '#about'}
+- {name: Summary, url: '#about'}
 - {name: Skills, url: '#skill'}
 - {name: Works, url: '#work'}
 - {name: Contact, url: '#contact'}
+#-----------not done yet
+#- {name: Training, url: '#contact'}
+#- {name: Soft skills?, url: '#contact'}
+#- {name: , url: '#contact'}
 
 
 #-------------------------------
 # b
 
 about: >
-  Comprehend in general <strong>human resources, payroll and personnel admin</strong> with recognized skills in HR business process, HR database administration & IT infrastructure, digital data record management, payroll processing, roster and leave management, employees’ performance appraisal and change of status.<br>Broad experience working at remote project site with high number of employees, dealing with employees in daily basis, streamlined day-to-day operations, employees’ mobilization & demobilization. Also have general understanding in handling other HR & GA matters, i.e. camp/housing, transport, recruitment, and petty cash.<br><br>Core competencies&#58 <strong>HR & Payroll Administration&#59 HR System/Technology & Infrastructure&#59 Employee communications & assistances&#59 Data mining, analysis & problem solving&#59 Cross cultural adaptability, Time management, scheduling, task oriented, and network/project planning&#59 Occupational Health & Safety (Ahli K3 Umum)&#59 Extensive computer literacies (Windows, OSX, Linux, Office, Database,</strong> and a little bit of <em>Web Development</em><strong>).</strong><p>This is his <b class="accent-color">orange</b> side.</p>
+  Comprehend in general <strong>human resources, payroll and personnel admin</strong> with recognized skills in HR business process, HR database administration & IT infrastructure, digital data record management, payroll processing, roster and leave management, training/development and change of status.<br>Broad experience working at remote project site with high number of employees, dealing with employees in daily basis, streamlined day-to-day operations, employees’ mobilization & demobilization. Also have general understanding in handling other HR & GA matters, i.e. camp/housing, transport, recruitment, and petty cash.<br><br>Core competencies&#58 <strong>HR & Payroll Administration&#59 HR System/Technology & Infrastructure&#59 Employee communications & assistances&#59 Data mining, analysis & problem solving&#59 Cross cultural adaptability, Time management, scheduling, task oriented, and network/project planning&#59 Occupational Health & Safety (Ahli K3 Umum)&#59 Extensive computer literacies (Windows, OSX, Linux, Office, Database,</strong> and a little bit of <em>Web Development</em><strong>).</strong><p>This is his <b class="accent-color">orange</b> side.</p>
 
 other:  He has certified for General Expert of Occupational Health & Safety issued by Ministry of Employement The Republic of Indonesia.
   
@@ -25,13 +29,13 @@ more: >
 
 skills:
 - {name: HR & Payroll Administration, value: 8}
-- {name: Computer Tools & Apps, value: 9}
-- {name: HR System & Technology, value: 8}
-- {name: Data Analytics, value: 8}
-- {name: Supervisory, value: 7}
-- {name: Creativity & Problem Solving, value: 7}
-- {name: Employee Assistance & Communication, value: 7}
-- {name: OHSE, value: 5}
+- {name: Training & Development, value: 6}
+- {name: HRIS Technology & Solutions, value: 7}
+- {name: Employee Relations & Communications, value: 7}
+- {name: HR Generalist, value: 7}
+- {name: Planning&#44 Project Management&#44 Team Building, value: 7}
+- {name: Database management, value: 7}
+- {name: OHSE (Ahli K3 Umum), value: 5}
 # communication
 # attention to detail
 
