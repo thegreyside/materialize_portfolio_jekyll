@@ -6,13 +6,13 @@
 				<a href="#" class="brand-logo"><span class="deep-orange-text text-lighten-2">{{ site.data.settings.subtitle-1 }}</span> & <span class="grey-text">{{ site.data.settings.subtitle-2 }}</span></a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					{% for menu in site.data.resume.menus %}
-					<li><a href="{{ menu.url }}">{{ menu.name }}</a>
+					<li><a href="{{ menu.url }}" class="blue-grey darken-1 deep-orange-text text-lighten-2">{{ menu.name }}</a>
 					</li>
 					{% endfor %}
 				</ul>
-				<ul id="slide-out" class="side-nav">
+				<ul id="slide-out" class="side-nav blue-grey darken-1">
 					{% for menu in site.data.resume.menus %}
-					<li><a href="{{ menu.url }}">{{ menu.name }}</a>
+					<li><a href="{{ menu.url }}" class="deep-orange-text text-lighten-2">{{ menu.name }}</a>
 					</li>
 					{% endfor %}
 				</ul>
