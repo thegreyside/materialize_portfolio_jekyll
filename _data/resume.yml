@@ -4,7 +4,7 @@
 menus:
 - {name: Summary, url: '#about'}
 - {name: Skills, url: '#skill'}
-- {name: Works, url: '#work'}
+- {name: Employment, url: '#employment'}
 - {name: Contact, url: '#contact'}
 #-----------not done yet
 #- {name: Training, url: '#contact'}
